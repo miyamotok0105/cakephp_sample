@@ -1,0 +1,31 @@
+gibo 2.2.4 by Simon Whitaker <sw@netcetera.org>
+https://github.com/simonwhitaker/gibo
+### https://raw.github.com/github/gitignore/055194192edb9ace9bedf5e6bf6e49f6ab824c6e/CakePHP.gitignore
+
+# CakePHP 3
+
+/vendor/*
+/config/app.php
+
+/tmp/cache/models/*
+!/tmp/cache/models/empty
+/tmp/cache/persistent/*
+!/tmp/cache/persistent/empty
+/tmp/cache/views/*
+!/tmp/cache/views/empty
+/tmp/sessions/*
+!/tmp/sessions/empty
+/tmp/tests/*
+!/tmp/tests/empty
+
+/logs/*
+!/logs/empty
+
+# CakePHP 2
+
+/app/tmp/*
+/app/Config/core.php
+/app/Config/database.php
+/vendors/*
+
+
