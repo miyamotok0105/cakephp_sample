@@ -44,6 +44,10 @@ bin/cake bake all tags
 http://localhost:8765/tags/add
 
 
+http://localhost:8765/articles/tagged
+http://localhost:8765/articles/tagged/funny
+
+
 systemctl start httpd
 
 

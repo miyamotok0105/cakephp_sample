@@ -53,6 +53,7 @@ class UsersTable extends Table
      */
     public function validationDefault(Validator $validator)
     {
+        // validatorにはエラーテキスト入れようね
         $validator
             ->integer('id')
             ->allowEmptyString('id', null, 'create');

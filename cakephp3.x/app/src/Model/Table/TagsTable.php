@@ -39,6 +39,7 @@ class TagsTable extends Table
         $this->setPrimaryKey('id');
 
         $this->addBehavior('Timestamp');
+        // $this->belongsToMany('Tags'); // この行を追加
 
         $this->belongsToMany('Articles', [
             'foreignKey' => 'tag_id',
@@ -55,6 +56,7 @@ class TagsTable extends Table
      */
     public function validationDefault(Validator $validator)
     {
+        // validatorにはエラーテキスト入れようね
         $validator
             ->integer('id')
             ->allowEmptyString('id', null, 'create');
